@@ -1,0 +1,170 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+# 网站标题
+title: 少将博客 Abel's blog
+# 网站副标题
+subtitle: 实战、分享、共成长
+# 网站描述
+description: ｀ ╰致力于成为一个高效工作，会生活，并有趣的人。
+# 您的名字
+author: Abel
+# 网站使用的语言
+language:
+# 网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America/New_York, Japan, 和 UTC 
+timezone:
+keywords: "前端,js,jquery,javascript,html5,java,python,全栈,开发者,程序猿,极客,智能硬件,机器学习,深度学习,开源,思维导图,xmind,DevOPS,Linux,TDD,Tensorflow,Full-Stack Developer,Programmer,Coder,Geek,html,css,css3,用户体验,运营,seo"
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+# 网址
+url: http://jiangshaobo.cn/
+# 网站根目录
+root: /
+# 文章的 永久链接 格式
+permalink: :year:month:day/:title.html
+# 永久链接中各部分的默认值
+permalink_defaults:
+
+# Directory
+# 资源文件夹，这个文件夹用来存放内容
+source_dir: source
+# 公共文件夹，这个文件夹用于存放生成的站点文件
+public_dir: public
+# 标签文件夹
+tag_dir: tags
+# 归档文件夹
+archive_dir: archives
+# 分类文件夹
+category_dir: categories
+# Include code 文件夹
+code_dir: downloads/code
+# 资源文件夹
+# assets_dir: assets
+# 国际化（i18n）文件夹
+i18n_dir: :lang
+# 跳过指定文件的渲染，您可使用 glob 表达式来匹配路径
+skip_render:
+
+# Writing
+# 新文章的文件名称
+new_post_name: :title.md # File name of new posts
+# 预设布局
+default_layout: post
+# 把标题转换为 title case
+titlecase: false # Transform title into titlecase
+# 在新标签中打开链接
+external_link: true # Open external links in new tab
+# 把文件名称转换为 (1) 小写或 (2) 大写 0
+filename_case: 0
+# 显示草稿
+render_drafts: false
+# 启动 Asset 文件夹
+post_asset_folder: true
+# 把链接改为与根目录的相对位址
+relative_link: false
+# 显示未来的文章
+future: true
+# 代码块的设置
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace: ''
+
+# Category & Tag
+# 默认分类
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 1
+category: 1
+tag: 1
+
+# Server
+## Hexo uses Connect as a server
+## You can customize the logger format as defined in
+## http://www.senchalabs.org/connect/logger.html
+port: 4000
+server_ip: localhost
+logger: false
+logger_format: dev
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 8
+pagination_dir: page
+
+# Disqus
+# disqus_shortname:
+
+# Extensions
+## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+## Themes: https://github.com/hexojs/hexo/wiki/Themes
+# plugins:
+#  - hexo-generator-feed
+#  - hexo-generator-baidu-sitemap
+#  - hexo-generator-sitemap
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: abel
+exclude_generator:
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 100
+
+#JsonContent
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: true
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+#deploy:
+#  type: rsync
+#  host: localhost
+#  user: root
+#  root: /usr/local/nginx/abel/
+#  port: 22
+deploy:
+  type: git
+  repo: git@github.com:sxyseo/sxyseo.github.io.git
+  branch: master
