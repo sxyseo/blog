@@ -20,7 +20,7 @@ keywords: "前端,js,jquery,javascript,html5,java,python,全栈,开发者,程序
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 # 网址
-url: http://jiangshaobo.cn/
+url: https://jiangshaobo.cn/
 # 网站根目录
 root: /
 # 文章的 永久链接 格式
@@ -84,7 +84,7 @@ tag_map:
 ## 2: Enable pagination
 ## 1: Disable pagination
 ## 0: Fully Disable
-archive: 1
+archive: 2
 category: 1
 tag: 1
 

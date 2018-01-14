@@ -2,6 +2,10 @@
 title: centos ubuntu下安装nodejs环境
 date: 2018-01-13 17:33:18
 tags:
+	- nodejs
+	- node.js
+	- centos
+	- ubuntu
 ---
 
 #### 申请了阿里云的主机，后续打算将博客转移到阿里云上，之前的腾讯云由于没有备案都闲置了，用作测试。

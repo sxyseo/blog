@@ -2,6 +2,9 @@
 title: win10安装Postgresql 错误解决方案 Failed to load sql modules into the
 date: 2018-01-14 16:28:57
 tags:
+	- postgresql
+	- win10
+	- fail
 ---
 
 #### win10安装postgrelsql安装了很多次都是报错，开始查明以为是权限的问题，然后就给文件夹赋予权限，以为快解决了，又出现了 Failed to load sql modules into the database cluster的错误，于是根据错误去继续寻找解决方案，ubuntu下分分钟就install了。最后翻看stackoverflow找到解决方案。
