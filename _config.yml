@@ -40,13 +40,15 @@ archive_dir: archives
 # 分类文件夹
 category_dir: categories
 # Include code 文件夹
-code_dir: downloads/code
+code_dir: code
 # 资源文件夹
-# assets_dir: assets
+assets_dir: assets
 # 国际化（i18n）文件夹
 i18n_dir: :lang
 # 跳过指定文件的渲染，您可使用 glob 表达式来匹配路径
-skip_render:
+skip_render: 
+           - 'demo/**'
+           - 'assets/**'
 
 # Writing
 # 新文章的文件名称
@@ -85,8 +87,8 @@ tag_map:
 ## 1: Disable pagination
 ## 0: Fully Disable
 archive: 2
-category: 1
-tag: 1
+category: 2
+tag: 2
 
 # Server
 ## Hexo uses Connect as a server

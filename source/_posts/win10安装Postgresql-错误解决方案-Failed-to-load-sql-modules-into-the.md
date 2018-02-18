@@ -22,6 +22,7 @@ I was getting this same error when trying to install PostgreSQL v9.4.4 on Window
 6) Delete the postgres user account, as well as the user directory
     NOTE: I added step #6, since the postgres account is not required after installation
 ```
+<!-- more -->
 
 第二步的话，在win10下很简单，在此电脑（我的电脑）下右键选管理，右键-》新增用户（postgres），然后重启用原来的用户登陆。
 注意第四步，可以按win+r打开运行命令，然后输入

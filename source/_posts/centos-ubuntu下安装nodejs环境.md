@@ -19,6 +19,7 @@ https://nodejs.org/zh-cn/download/
 ```
 https://nodejs.org/dist/v8.9.3/node-v8.9.3-linux-x64.tar.xz
 ```
+<!-- more -->
 
 centos ubuntu下安装nodejs环境
 

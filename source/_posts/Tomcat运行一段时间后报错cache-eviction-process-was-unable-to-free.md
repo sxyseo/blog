@@ -2,7 +2,7 @@
 title: >-
   Tomcat运行一段时间后报错cache eviction process was unable to free [10]
 date: 2018-01-18 17:50:25
-tags:
+tags: tomcat
 ---
 
 
@@ -30,6 +30,9 @@ ache eviction process was unable to free [10] percent of the cache for Context [
 ely [24,460] KB of data remained in the cache.
 
 ```
+
+<!-- more -->
+
 ##### 日志中记录并给出了建议：
 ```
 consider increasing the maximum size of the cache
