@@ -167,6 +167,9 @@ jsonContent:
 #  root: /usr/local/nginx/abel/
 #  port: 22
 deploy:
-  type: git
-  repo: git@github.com:sxyseo/sxyseo.github.io.git
-  branch: master
+  - type: git
+    repo: git@github.com:sxyseo/sxyseo.github.io.git
+    branch: master
+  - type: git
+    repo: git@git.coding.net:sxyseo/abel.git
+    branch: master
