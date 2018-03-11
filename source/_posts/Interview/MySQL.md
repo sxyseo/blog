@@ -2,7 +2,6 @@
 title: MySQL
 date: 2018-03-11 11:58:00
 tags: interview
-categories: interview
 toc: true
 ---
 
@@ -248,7 +247,7 @@ customer_id_selectivity: 0.0373
 
 ### 3.5 聚簇索引
 
-<br><div align="center"> <img src="../pics/b9e9ae8c-e216-4c01-b267-a50dbeb98fa4.jpg"/> </div><br>
+<br><div align="center"> <img src="/pics/b9e9ae8c-e216-4c01-b267-a50dbeb98fa4.jpg"/> </div><br>
 
 聚簇索引并不是一种索引类型，而是一种数据存储方式。
 
@@ -277,7 +276,7 @@ customer_id_selectivity: 0.0373
 
 ### 4. 1 B-Tree
 
-<br><div align="center"> <img src="../pics/5ed71283-a070-4b21-85ae-f2cbfd6ba6e1.jpg"/> </div><br>
+<br><div align="center"> <img src="/pics/5ed71283-a070-4b21-85ae-f2cbfd6ba6e1.jpg"/> </div><br>
 
 为了描述 B-Tree，首先定义一条数据记录为一个二元组 [key, data]，key 为记录的键，data 为数据记录除 key 外的数据。
 
@@ -293,7 +292,7 @@ B-Tree 是满足下列条件的数据结构：
 
 ### 4.2 B+Tree
 
-<br><div align="center"> <img src="../pics/63cd5b50-d6d8-4df6-8912-ef4a1dd5ba13.jpg"/> </div><br>
+<br><div align="center"> <img src="/pics/63cd5b50-d6d8-4df6-8912-ef4a1dd5ba13.jpg"/> </div><br>
 
 与 B-Tree 相比，B+Tree 有以下不同点：
 
@@ -302,7 +301,7 @@ B-Tree 是满足下列条件的数据结构：
 
 ### 4.3 带有顺序访问指针的 B+Tree
 
-<br><div align="center"> <img src="../pics/1ee5f0a5-b8df-43b9-95ab-c516c54ec797.jpg"/> </div><br>
+<br><div align="center"> <img src="/pics/1ee5f0a5-b8df-43b9-95ab-c516c54ec797.jpg"/> </div><br>
 
 一般在数据库系统或文件系统中使用的 B+Tree 结构都在经典 B+Tree 基础上进行了优化，在叶子节点增加了顺序访问指针，做这个优化的目的是为了提高区间访问的性能。
 
@@ -415,7 +414,7 @@ do {
 
 通过代理，可以路由流量到可以使用的服务器上。
 
-<br><div align="center"> <img src="../pics/fabd5fa0-b75e-48d0-9e2c-31471945ceb9.jpg"/> </div><br>
+<br><div align="center"> <img src="/pics/fabd5fa0-b75e-48d0-9e2c-31471945ceb9.jpg"/> </div><br>
 
 **1.4 在应用中处理故障转移** 
 
@@ -433,7 +432,7 @@ do {
 
 ---
 
-本来来自 [Interview-Notebook](https://github.com/CyC2018/Interview-Notebook/)
+本文来自 [Interview-Notebook](https://github.com/CyC2018/Interview-Notebook/)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/cn/88x31.png" /></a>
 

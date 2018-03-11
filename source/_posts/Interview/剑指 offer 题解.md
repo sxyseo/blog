@@ -2,7 +2,6 @@
 title: 剑指 offer 题解
 date: 2018-03-11 11:58:00
 tags: interview
-categories: interview
 toc: true
 ---
 
@@ -297,7 +296,7 @@ private TreeNode reConstructBinaryTree(int[] pre, int preL, int preR, int[] in, 
 - 如果一个节点有右子树不为空，那么该节点的下一个节点是右子树的最左节点；
 - 否则，向上找第一个左链接指向的树包含该节点的祖先节点。
 
-<br><div align="center"> <img src="../pics/6fec7f56-a685-4232-b03e-c92a8dfba486.png"/> </div><br>
+<br><div align="center"> <img src="/pics/6fec7f56-a685-4232-b03e-c92a8dfba486.png"/> </div><br>
 
 ```java
 public TreeLinkNode GetNext(TreeLinkNode pNode) {
@@ -1087,15 +1086,15 @@ private void dfs(TreeNode node, int target, int curSum, ArrayList<Integer> path)
 
 第一步，在每个节点的后面插入复制的节点。
 
-<br><div align="center"> <img src="../pics/f8b12555-967b-423d-a84e-bc9eff104b8b.jpg"/> </div><br>
+<br><div align="center"> <img src="/pics/f8b12555-967b-423d-a84e-bc9eff104b8b.jpg"/> </div><br>
 
 第二步，对复制节点的 random 链接进行赋值。
 
-<br><div align="center"> <img src="../pics/7b877a2a-8fd1-40d8-a34c-c445827300b8.jpg"/> </div><br>
+<br><div align="center"> <img src="/pics/7b877a2a-8fd1-40d8-a34c-c445827300b8.jpg"/> </div><br>
 
 第三步，拆分。
 
-<br><div align="center"> <img src="../pics/b2b6253c-c701-4b30-aff4-bc3c713542a7.jpg"/> </div><br>
+<br><div align="center"> <img src="/pics/b2b6253c-c701-4b30-aff4-bc3c713542a7.jpg"/> </div><br>
 
 
 ```java
@@ -2067,7 +2066,7 @@ public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 
 ---
 
-本来来自 [Interview-Notebook](https://github.com/CyC2018/Interview-Notebook/)
+本文来自 [Interview-Notebook](https://github.com/CyC2018/Interview-Notebook/)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/cn/88x31.png" /></a>
 

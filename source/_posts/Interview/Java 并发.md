@@ -2,7 +2,6 @@
 title: Java 并发
 date: 2018-03-11 11:58:00
 tags: interview
-categories: interview
 toc: true
 ---
 
@@ -357,7 +356,7 @@ JDK 从 1.5 开始在 Thread 类中增添了 State 枚举，包含以下六种�
 5.  **TIMED_WAITING** （调用 sleep()、带超时的 wait() 或者 join()）
 6.  **TERMINATED** （死亡）
 
-<br><div align="center"> <img src="../pics/19f2c9ef-6739-4a95-8e9d-aa3f7654e028.jpg"/> </div><br>
+<br><div align="center"> <img src="/pics/19f2c9ef-6739-4a95-8e9d-aa3f7654e028.jpg"/> </div><br>
 
 # 结束线程
 
@@ -462,7 +461,7 @@ volatile 关键字通过添加内存屏障的方式来进制指令重排，即�
 
 ---
 
-本来来自 [Interview-Notebook](https://github.com/CyC2018/Interview-Notebook/)
+本文来自 [Interview-Notebook](https://github.com/CyC2018/Interview-Notebook/)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/cn/88x31.png" /></a>
 

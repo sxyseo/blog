@@ -2,7 +2,6 @@
 title: SQL语法
 date: 2018-03-11 11:58:00
 tags: interview
-categories: interview
 toc: true
 ---
 
@@ -720,7 +719,7 @@ SHOW GRANTS FOR myuser;
 GRANT SELECT, INSERT ON mydatabase.* TO myuser;
 ```
 
-<br><div align="center"> <img src="../pics/c73aa08e-a987-43c9-92be-adea4a884c25.png"/> </div><br>
+<br><div align="center"> <img src="/pics/c73aa08e-a987-43c9-92be-adea4a884c25.png"/> </div><br>
 
 账户用 username@host 的形式定义，username@% 使用的是默认主机名。
 
@@ -748,7 +747,7 @@ SET PASSWROD FOR myuser = Password('newpassword');
 
 ---
 
-本来来自 [Interview-Notebook](https://github.com/CyC2018/Interview-Notebook/)
+本文来自 [Interview-Notebook](https://github.com/CyC2018/Interview-Notebook/)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/cn/88x31.png" /></a>
 

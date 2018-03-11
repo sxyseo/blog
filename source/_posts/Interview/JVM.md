@@ -683,7 +683,7 @@ java -Xmx12m -Xms3m -Xmn1m -XX:PermSize=20m -XX:MaxPermSize=20m -XX:+UseSerialGC
 ```
 ---
 
-本来来自 [Interview-Notebook](https://github.com/CyC2018/Interview-Notebook/)
+本文来自 [Interview-Notebook](https://github.com/CyC2018/Interview-Notebook/)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/cn/88x31.png" /></a>
 
